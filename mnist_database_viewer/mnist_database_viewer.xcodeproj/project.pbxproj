@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3101037F1D01FA7B007543BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3101037E1D01FA7B007543BE /* AppDelegate.swift */; };
+		310103811D01FA7B007543BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310103801D01FA7B007543BE /* Assets.xcassets */; };
+		310103841D01FA7B007543BE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 310103821D01FA7B007543BE /* MainMenu.xib */; };
+		3101038F1D01FA7B007543BE /* mnist_database_viewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3101038E1D01FA7B007543BE /* mnist_database_viewerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3101038B1D01FA7B007543BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 310103731D01FA7B007543BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3101037A1D01FA7B007543BE;
+			remoteInfo = mnist_database_viewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3101037B1D01FA7B007543BE /* mnist_database_viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mnist_database_viewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3101037E1D01FA7B007543BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		310103801D01FA7B007543BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		310103831D01FA7B007543BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		310103851D01FA7B007543BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3101038A1D01FA7B007543BE /* mnist_database_viewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mnist_database_viewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3101038E1D01FA7B007543BE /* mnist_database_viewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mnist_database_viewerTests.swift; sourceTree = "<group>"; };
+		310103901D01FA7B007543BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		310103781D01FA7B007543BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310103871D01FA7B007543BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		310103721D01FA7B007543BE = {
+			isa = PBXGroup;
+			children = (
+				3101037D1D01FA7B007543BE /* mnist_database_viewer */,
+				3101038D1D01FA7B007543BE /* mnist_database_viewerTests */,
+				3101037C1D01FA7B007543BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3101037C1D01FA7B007543BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3101037B1D01FA7B007543BE /* mnist_database_viewer.app */,
+				3101038A1D01FA7B007543BE /* mnist_database_viewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3101037D1D01FA7B007543BE /* mnist_database_viewer */ = {
+			isa = PBXGroup;
+			children = (
+				3101037E1D01FA7B007543BE /* AppDelegate.swift */,
+				310103801D01FA7B007543BE /* Assets.xcassets */,
+				310103821D01FA7B007543BE /* MainMenu.xib */,
+				310103851D01FA7B007543BE /* Info.plist */,
+			);
+			path = mnist_database_viewer;
+			sourceTree = "<group>";
+		};
+		3101038D1D01FA7B007543BE /* mnist_database_viewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3101038E1D01FA7B007543BE /* mnist_database_viewerTests.swift */,
+				310103901D01FA7B007543BE /* Info.plist */,
+			);
+			path = mnist_database_viewerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3101037A1D01FA7B007543BE /* mnist_database_viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 310103931D01FA7B007543BE /* Build configuration list for PBXNativeTarget "mnist_database_viewer" */;
+			buildPhases = (
+				310103771D01FA7B007543BE /* Sources */,
+				310103781D01FA7B007543BE /* Frameworks */,
+				310103791D01FA7B007543BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mnist_database_viewer;
+			productName = mnist_database_viewer;
+			productReference = 3101037B1D01FA7B007543BE /* mnist_database_viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		310103891D01FA7B007543BE /* mnist_database_viewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 310103961D01FA7B007543BE /* Build configuration list for PBXNativeTarget "mnist_database_viewerTests" */;
+			buildPhases = (
+				310103861D01FA7B007543BE /* Sources */,
+				310103871D01FA7B007543BE /* Frameworks */,
+				310103881D01FA7B007543BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3101038C1D01FA7B007543BE /* PBXTargetDependency */,
+			);
+			name = mnist_database_viewerTests;
+			productName = mnist_database_viewerTests;
+			productReference = 3101038A1D01FA7B007543BE /* mnist_database_viewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		310103731D01FA7B007543BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jeroen Torfs";
+				TargetAttributes = {
+					3101037A1D01FA7B007543BE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					310103891D01FA7B007543BE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3101037A1D01FA7B007543BE;
+					};
+				};
+			};
+			buildConfigurationList = 310103761D01FA7B007543BE /* Build configuration list for PBXProject "mnist_database_viewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 310103721D01FA7B007543BE;
+			productRefGroup = 3101037C1D01FA7B007543BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3101037A1D01FA7B007543BE /* mnist_database_viewer */,
+				310103891D01FA7B007543BE /* mnist_database_viewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		310103791D01FA7B007543BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310103811D01FA7B007543BE /* Assets.xcassets in Resources */,
+				310103841D01FA7B007543BE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310103881D01FA7B007543BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		310103771D01FA7B007543BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3101037F1D01FA7B007543BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310103861D01FA7B007543BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3101038F1D01FA7B007543BE /* mnist_database_viewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3101038C1D01FA7B007543BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3101037A1D01FA7B007543BE /* mnist_database_viewer */;
+			targetProxy = 3101038B1D01FA7B007543BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		310103821D01FA7B007543BE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				310103831D01FA7B007543BE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		310103911D01FA7B007543BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		310103921D01FA7B007543BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		310103941D01FA7B007543BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = mnist_database_viewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jetolabs.mnist-database-viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		310103951D01FA7B007543BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = mnist_database_viewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jetolabs.mnist-database-viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		310103971D01FA7B007543BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = mnist_database_viewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jetolabs.mnist-database-viewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mnist_database_viewer.app/Contents/MacOS/mnist_database_viewer";
+			};
+			name = Debug;
+		};
+		310103981D01FA7B007543BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = mnist_database_viewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jetolabs.mnist-database-viewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mnist_database_viewer.app/Contents/MacOS/mnist_database_viewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		310103761D01FA7B007543BE /* Build configuration list for PBXProject "mnist_database_viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310103911D01FA7B007543BE /* Debug */,
+				310103921D01FA7B007543BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		310103931D01FA7B007543BE /* Build configuration list for PBXNativeTarget "mnist_database_viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310103941D01FA7B007543BE /* Debug */,
+				310103951D01FA7B007543BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		310103961D01FA7B007543BE /* Build configuration list for PBXNativeTarget "mnist_database_viewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310103971D01FA7B007543BE /* Debug */,
+				310103981D01FA7B007543BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 310103731D01FA7B007543BE /* Project object */;
+}
